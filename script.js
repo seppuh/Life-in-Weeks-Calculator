@@ -6,7 +6,7 @@ function until90YearsOld(currentAge) {
   //calculate age to months
   let ageInMonths = 1080 - currentAge * 12;
   //output total in days, weeks, months
-  console.log(
+  document.getElementById("result").innerHTML(
     "You have " +
       ageInDays +
       " days, " +
@@ -16,5 +16,3 @@ function until90YearsOld(currentAge) {
       " months left until you're 80 years old."
   );
 }
-
-until90YearsOld(89);
