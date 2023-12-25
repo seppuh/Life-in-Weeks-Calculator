@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Roboto&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <title>Life In Weeks Calculator</title>
+  </head>
+  <body>
+    <h1>Life-in-weeks-calculator</h1>
+    <p class="introduction">
+      Welcome to the life-in-weeks-calculator, a tool to calculate how long it
+      will take for you to hit 90 years old based on your current age.
+    </p>
+
+    <div class="container">
+      <h2>How it works:</h2>
+      <p class="instructions">
+        Just put in your age and the results will display in days, weeks and
+        months.
+        <!--although we cant promise you'll make it to 90 years old (yet :p)-->
+      </p>
+      <!--change to every type of data more than days/weeks/months-->
+      <input
+        type="number"
+        name="age"
+        id="age"
+        placeholder="put your age here"
+        required 
+      />
+      <button class="calculate-button" onclick = "until90YearsOld()">Calculate!</button>
+      <!--add animation when calculating like a slot machine -->
+      <!-- output result of function in a paragraph -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

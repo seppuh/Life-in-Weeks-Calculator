@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    border: 2px double brown;
+    border-radius: 6px;
+
+
+}
+
+.calculate-button {
+    /*add style to make button shiny with gradient of moving grey*/
+    background: blue;
+    border: 1px solid black;
+    color: white;
+    
+}
+
+.calculate-button:hover {
+    cursor: pointer;
+}
+
+.calculate-button:active {
+    background: gray;
+}
+
+.calculate-button::selection {
+    background: gray;
+}
